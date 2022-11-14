@@ -1,0 +1,32 @@
+body{
+    background: rgb(2,123,252);
+    background: linear-gradient(90deg, rgba(2,123,252,0.5) 0%, rgba(84,103,195,0.5) 50%, rgba(231,135,0,0.5) 100%);
+    width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    opacity: 0;
+    animation: fade_in 2s 1 forwards;
+    animation-delay: 0.5s;
+}
+
+span{
+    width: 100px;
+    text-align: center;
+}
+#length, #leet, #camelCase{
+    background-color: lightgrey;
+}
+@keyframes fade_in {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.row{
+    animation: fade_in 2s 1 forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
